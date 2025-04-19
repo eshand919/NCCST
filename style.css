@@ -7,7 +7,7 @@
 
 .content {
     align-items: flex-start;
-    color: yellow;
+    color: #efb324;
     font-size: 25;
 }
 
@@ -18,7 +18,7 @@ body {
 
 nav {
     height: 80px;
-    background: cornflowerblue;
+    background: #3243ab;
     display: flex;
     justify-content: space-between;
     padding: 1.3rem calc((100vw - 1300px) / 2);
@@ -59,7 +59,7 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    color: gold;
+    color: #efb324;
     padding: 0rem 2rem;
 }
 
