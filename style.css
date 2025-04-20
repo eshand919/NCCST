@@ -5,23 +5,33 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+
 .content {
     align-items: flex-start;
     color: #efb324;
+    /*display: flex;*/
+    padding: 10rem;
     font-size: 25;
 }
 
 body {
     background-color: black; /* Purpleish background */
     font-family: Arial, sans-serif;
+    background-image: url(NCCST\ backdrop\(edited\)1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 200px;
 }
 
 nav {
-    height: 80px;
+    height: 100px;
     background: #3243ab;
     display: flex;
     justify-content: space-between;
-    padding: 1.3rem calc((100vw - 1300px) / 2);
+    padding: 2.0rem calc((100vw - 1300px) / 2);
+    align-items: center;
+    font-size: 1.2rem;
 }
 
 .logo {
