@@ -1,0 +1,49 @@
+# AI Scroll Reveal Website
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Scroll Reveal</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <header>
+        <h1>Artificial Intelligence</h1>
+        <nav>
+            <ul>
+                <li><a href="#page1">Introduction</a></li>
+                <li><a href="#page2">Applications</a></li>
+                <li><a href="#page3">Future of AI</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="page1">
+        <h2>Introduction to AI</h2>
+        <p>Artificial Intelligence (AI) refers to the simulation of human intelligence in machines.</p>
+    </section>
+
+    <section id="page2">
+        <h2>Applications of AI</h2>
+        <p>AI is used in various fields such as healthcare, finance, and transportation.</p>
+    </section>
+
+    <section id="page3">
+        <h2>The Future of AI</h2>
+        <p>The future of AI holds immense potential, with advancements in machine learning and deep learning.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 AI Scroll Reveal Website</p>
+    </footer>
+
+    <script>
+        ScrollReveal().reveal('header', { duration: 1000 });
+        ScrollReveal().reveal('section', { duration: 1000 });
+        ScrollReveal().reveal('footer', { duration: 1000 });
+    </script>
+</body>
+</html>
